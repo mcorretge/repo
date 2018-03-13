@@ -24,4 +24,21 @@ bool equals()
 	return Cercle.x.equals(Cercle.y)
 }
 
+String getX()
+{
+	return Cercle.x
+}
+String getY()
+{
+	return Cercle.y
+}
+
+setX(float xx)
+{
+	Cercle.x = xx
+}
+setY(float yy)
+{
+	Cercle.y = yy
+}
 }
